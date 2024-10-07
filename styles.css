@@ -1,0 +1,76 @@
+#toprowleft {
+    display:flex;
+    list-style-type: none;
+    float:left;
+}
+#toprowright {
+    display:flex;
+    float:right;
+    list-style-type: none;
+}
+#topbar {
+    padding: 20px;
+    min-height: 40px;
+}
+#mainMiddle {
+    margin: auto;
+    padding-top: 200px;
+    width: 50%;
+    /* padding: 10px; */
+    text-align: center;
+}
+#footer {
+    /* position:absolute; */
+    /* float:bottom; */
+    position:absolute;
+    bottom: 0;
+    right:0;
+    left:0;
+    padding:20px;
+    background-color: rgb(207, 207, 207);
+    min-height:30px;
+    max-height:200px;
+}
+#bottomleft {
+    display:flex;
+    list-style-type: none;
+    float:left;
+}
+#bottomright {
+    display:flex;
+    list-style-type: none;
+    float:right;
+}
+
+/* #bottombar {
+    position:absolute;
+    bottom:150px;
+    padding:2px;
+    background-color: rgb(207, 207, 207);
+    width:100%;
+    text-align: center;
+} */
+
+html {
+    font-size: 1.3vw;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+#searchPrompt {
+    outline:none;
+    background-color: white;
+    background-size:contain;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/751/751463.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+#logo {
+    width:30vw;
+}
